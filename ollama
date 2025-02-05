@@ -1,0 +1,3 @@
+ollama run deepseek-r1:8b    下载4.9G那个
+ollama list 查看下载完的列表
+ollama run deepseek-r1:8b  运行这个版本
