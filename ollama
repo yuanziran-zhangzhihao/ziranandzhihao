@@ -1,3 +1,15 @@
 ollama run deepseek-r1:8b    下载4.9G那个
 ollama list 查看下载完的列表
 ollama run deepseek-r1:8b  运行这个版本
+
+在终端上加上这些代码会更好看
+"useAcrylic": true,
+"acrylicOpacity": 0.4,
+"backgroundImage": "D:/Program Files/Tencent/Tencent Files/1497669737/nt_qq/nt_data/Pic/2025-01/Ori/b_21cc21a9f66cc3cbdee44cf2ed340b6d.jpg",
+"backgroundImageOpacity": 0.4,
+"fontSize": 14,
+"fontFace": "DejaVuSansM Nerd Font"
+
+oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\montys.omp.json | Invoke-Expression
+cls  清屏
+这个是在终端输入CODE $PROFILE命令后，加上这个命令，保证每次启动都运行这些命令
